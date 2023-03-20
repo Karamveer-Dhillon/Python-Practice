@@ -1,6 +1,6 @@
 import random
-t=("Rock","Paper","Scissors")#Computer's turn
-Computer=t[random.randint(0,2)]
+Turn=("Rock","Paper","Scissors")#Computer's turn
+Computer=Turn[random.randint(0,2)]
 
 Player=False
 
