@@ -8,7 +8,7 @@ while Player==False:
 
     Player = input("Rock, Paper, Scissors?")#Player's turn
     
-    if Player==Computer:#Tie
+    if Player.upper()==Computer:#Tie
         print("Tie!")
     
     elif Player.upper()=="ROCK":#Player has Rock
